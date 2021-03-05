@@ -27,6 +27,7 @@ library(writexl)
 
 # Seite herunterladen und parsen
 url <- "https://www.zeit.de/suche/index?q=corona"
+url <- "https://www.zeit.de/gesellschaft/2021-02/corona-massnahmen-lockerungen-lockdown-ausgangsbeschraenkung-sport-gastronomie-ueberblick?page=3#comments"
 html <- read_html(url)
 html
 
@@ -37,7 +38,12 @@ write_xml(html, file="article_n.html")
 # - Webseite  mit GET-Funktion aus dem httr packager herunterladen
 # - Inhalt in HTML-Datei abspeichern
 # - Datei mit rvest einlesen
+httr::set_config(httr::user_agent("MyAcademicSuperInsightsApp/0.1 by CaptainX"))
+httr::set_config(httr::user_agent("MyAcademicSuperInsightsApp/0.1 by CaptainX"))
+
 response <- GET(url)
+response
+
 cat(content(response, "text"), file="article_n.html")
 html <- read_html("article_n.html")
 

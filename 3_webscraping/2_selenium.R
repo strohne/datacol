@@ -29,6 +29,7 @@ browser <- selenium$client
 # siehe die Hilfe zu remoteDriver-Class und webElement-class (im package RSelenium)
 
 browser$navigate("http://www.google.com")
+browser$navigate("https://www.zeit.de/gesellschaft/2021-02/corona-massnahmen-lockerungen-lockdown-ausgangsbeschraenkung-sport-gastronomie-ueberblick?page=3")
 
 # Suchbegriff eingeben
 suchschlitz <-  browser$findElement(using = 'name', 'q')
