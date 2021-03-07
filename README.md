@@ -3,18 +3,21 @@
 Dieses Repositorium enthält Übungsmaterialen zum Workshop. Zur Vorbereitung laden Sie sich bitte erstens das Repositorium herunter, indem Sie auf Code -> Download ZIP klicken.
 Installieren Sie bitte folgende Software:
 
+*Grundlagen*
 - Die Browser Firefox und/oder Chrome
 - Einen Texteditor mit Syntaxhervorhebung, zum Beispiel Notepad++, Atom oder Textmate
 
+*Facepager*
 - Facepager: https://github.com/strohne/Facepager
 
+*R*
 - R: https://cran.r-project.org/
 - RStudio Desktop: https://rstudio.com/products/rstudio/download/
-- Installieren Sie in R / RStudio folgende Packages 
+- Installieren Sie in R / RStudio folgende Packages\
   tidyverse, rvest, hhtr, xml2, readxl, writexl
 
-- Installieren Sie in R / RStudio das folgende Package 
-  RSelenium
+*RSelenium*
+- Installieren Sie in R / RStudio das Package RSelenium\
 - Richten Sie mit folgenden R-Befehlen RSelenium ein: 
   ```
   library(Rselenium)
