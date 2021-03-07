@@ -10,14 +10,12 @@ Installieren Sie bitte folgende Software:
 *Facepager*
 - Facepager: https://github.com/strohne/Facepager
 
-*R*
+*R und RSelenium*
 - R: https://cran.r-project.org/
 - RStudio Desktop: https://rstudio.com/products/rstudio/download/
 - Installieren Sie in R / RStudio folgende Packages\
   tidyverse, rvest, hhtr, xml2, readxl, writexl
-
-*RSelenium*
-- Installieren Sie in R / RStudio das Package RSelenium\
+- Installieren Sie in R / RStudio das Package RSelenium
 - Richten Sie mit folgenden R-Befehlen RSelenium ein: 
   ```
   library(Rselenium)
