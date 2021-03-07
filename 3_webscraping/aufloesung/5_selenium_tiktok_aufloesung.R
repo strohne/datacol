@@ -16,8 +16,8 @@ library(RSelenium)
 #
 
 
-#selenium <- rsDriver(browser="firefox",port=50123L)
-selenium <- rsDriver(browser="chrome",port=50501L)
+#selenium <- rsDriver(browser="firefox",port=4565L)
+selenium <- rsDriver(browser="chrome",port=4566L)
 browser <- selenium$client
 
 #
