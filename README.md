@@ -1,8 +1,6 @@
 # Workshop Data Collection
 
-Dieses Repositorium enthält Übungsmaterialen zum Workshop "Data Collection". 
-
-Zur Vorbereitung laden Sie sich bitte erstens das Repositorium herunter. 
+Dieses Repositorium enthält Übungsmaterialen zum Workshop. Zur Vorbereitung laden Sie sich bitte erstens das Repositorium herunter, indem Sie auf Code -> Download ZIP klicken.
 Installieren Sie bitte folgende Software:
 
 - Die Browser Firefox und/oder Chrome
@@ -12,15 +10,17 @@ Installieren Sie bitte folgende Software:
 
 - R: https://cran.r-project.org/
 - RStudio Desktop: https://rstudio.com/products/rstudio/download/
-- Installieren Sie in R / RStudio folgende Packages
+- Installieren Sie in R / RStudio folgende Packages 
   tidyverse, rvest, hhtr, xml2, readxl, writexl
 
-- Installieren Sie in R / RStudio das folgende Package
+- Installieren Sie in R / RStudio das folgende Package 
   RSelenium
-- Richten Sie mit folgenden R-Befehlen RSelenium ein:
-  ```library(Rselenium)
+- Richten Sie mit folgenden R-Befehlen RSelenium ein: 
+  ```
+  library(Rselenium)
   selenium <- rsDriver(browser="chrome",port=4566L)
-  selenium$server$stop()```
+  selenium$server$stop()
+  ```
 
 
 ## Teil 1 - Grundlagen
