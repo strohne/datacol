@@ -23,11 +23,14 @@ Installieren Sie bitte folgende Software:
 
 
 ## Teil 1 - Grundlagen
-to be added
+- Überblick über Verfahren automatisierter Datenerhebung
+- Überblick über die wichtigsten Datenformate
 
 ## Teil 2 - APIs
-to be added
+- Einführung in Application Programming Interfaces (APIs) und JSON
+- Datenerhebung mit Facepager
 
 ## Teil 3 - Webscraping
-to be added
-
+- Einführung in URLs, HTML und CSS
+- Klassisches Webscraping
+- Browserautomatisierung mit Selenium
