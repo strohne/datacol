@@ -21,8 +21,8 @@ library(RSelenium)
 # Fall der Port belegt ist, einen anderen Port verwenden: 49152 bis 65535
 # Der Port sollte am Ende mit server$stop() wieder freigegeben werden
 
-#selenium <- rsDriver(browser="firefox",port=50123L)
-selenium <- rsDriver(browser="chrome",port=50124L)
+#selenium <- rsDriver(browser="firefox",port=4566L)
+selenium <- rsDriver(browser="chrome",port=4567L)
 
 # Browser-API
 browser <- selenium$client
