@@ -29,6 +29,7 @@ Installieren Sie bitte folgende Software:
 ## Teil 2 - APIs
 - Einführung in Application Programming Interfaces (APIs) und JSON
 - Datenerhebung mit Facepager
+- Exportieren der erhobenen Daten und Aufbereitung in R
 
 ## Teil 3 - Webscraping
 - Einführung in URLs, HTML und CSS
