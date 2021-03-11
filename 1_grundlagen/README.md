@@ -1,7 +1,7 @@
 ## Übung: Elemente einer URL bestimmen 
 
 **Aufgabe 1:**  
-Öffnen Sie die URLs im Browser und bestimmen Sie die Elemente (Protokoll, Domain, Pfad, Parameter)! 
+Öffnen Sie die URLs im Browser und bestimmen Sie die Elemente (Protokoll, Domain, Pfad, Parameter)! Welche Funktion haben die verschiedenen Teile?
 
 - URL 1: https://twitter.com/uni_greifswald/status/1367126204776665094/retweets
 - URL 2: https://www.reddit.com/search?q=Universit%C3%A4t&sort=new 
