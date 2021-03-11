@@ -18,7 +18,6 @@ library(writexl)
 export <- read_csv2("data/export.express.csv",na = "None")
 
 
-
 #
 # Daten aufbereiten ----
 # Dafür zunächst die einzelnen Ebenen 
@@ -36,17 +35,18 @@ page <- export %>%
 posts <- export %>%  
   filter(object_type=="data") %>% # Daten-Typ "Offcut" entfernen
   filter(level==1) %>% # Nur Posts behalten (level 1)
-  select(post_id=id, parent_id, object_id, message, created_time, updated_time) 
+  select(parent_id, post_id=id, post=message, created_time, contains("count")) 
 
 # Reaktionen herausfiltern
-reactions <- export %>% 
+comments <- export %>% 
+  filter(object_type=="data") %>% 
   filter(level==2) %>% 
-  select(-id, -message, -created_time, -updated_time)
+  select(parent_id, comment_id=id, comment=message, created_time, comment_count, contains("summary.total_count"))
 
 # Seite, Posts und Reaktionen auf eine Ebene holen
 data <- page %>% 
   left_join(posts, by=c("page_id"="parent_id")) %>% 
-  left_join(reactions, by=c("object_id", "post_id"="parent_id"))
+  left_join(comments, by=c("post_id"="parent_id"))
   
 # nicht mehr benötigte Dateien entfernen 
 rm(page, posts, reactions)
