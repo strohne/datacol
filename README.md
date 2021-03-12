@@ -7,11 +7,13 @@ Dieses Repositorium enthält Übungsmaterialen zum Workshop. Zur Vorbereitung la
 - Facepager: https://github.com/strohne/Facepager
 - Einen Texteditor mit Syntaxhervorhebung, zum Beispiel Notepad++, Atom oder Textmate
 
-*R und RSelenium*
+*R*
 - R: https://cran.r-project.org/
 - RStudio Desktop: https://rstudio.com/products/rstudio/download/
 - Installieren Sie in R / RStudio folgende Packages\
-  tidyverse, rvest, httr, xml2, readxl, writexl
+  tidyverse, writexl
+  
+ *RSelenium*
 - Installieren Sie in R / RStudio das Package RSelenium
 - Richten Sie mit folgenden R-Befehlen RSelenium ein: 
   ```
