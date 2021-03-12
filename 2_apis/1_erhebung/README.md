@@ -10,22 +10,19 @@
 
 4. Knoten hinzufügen: Über ```Add Nodes``` Handle einer oder mehrerer Facebook-Seite hinzufügen (Der Teil hinter dem Basispfad http://www.facbeook.com/)
 
-5. Authentifizieren: Über ```Login to Facebook``` einloggen und durch Dialog gehen 
+5. Preset laden: "2. Get Facebook posts" (Unter ```Presets```-> **Facebook**)
 
-6. Letzte 20 Posts einer Seite erheben:
-- Preset "2. Get Facebook posts" laden (Unter ```Presets```-> **Facebook**)
+6. Authentifizieren: Über ```Login to Facebook``` einloggen und durch Dialog gehen 
+
+7. Einstellungen anpassen 
+- Welche Einstellungen für eine Ressource möglich sind, kann man über die Dokumentation sehen. Die Dokumentation einer Ressource lässt sich über das ```?```neben der Zeile der Ressource öffnen (Zunächst im API Viewer und von dort auch über die Verlinkung der Website). 
+- Als Field ergänzen: Wie oft wurde ein Beitrag geteilt 
+- Als Field ergänzen: Welche Reaktionen hat ein Beitrag (siehe Beschreibung im Preset für die Werte)
 - Knoten auswählen und auf ```Fetch Data```klicken 
-
 
 7. Daten inspizieren: Knoten ausklappen, Daten im Nodes View (links) und  Data View (rechts) durchsehen
 
-8. Reaktion der Posts erheben und inspizieren: 
-- Preset "Get reactions" laden 
-- obersten Knoten (unter 4. hinzugefügt) anklicken, in den Einstellungen auswählen: ```Node level```: 2, ```Select all nodes```: [x]
-- auf ```Fetch Data```klicken 
-- Knoten ausklappen und Daten inspizieren 
-
-9. Gegebenenfalls Spalten anpassen (Über ```Clear Columns```, ```Add Column```oder ```Add All Columns```)
+8. Spalten anpassen (Über ```Add Column```oder ```Add All Columns```)
 
 10. Daten Exportieren: 
 - Alle Knoten auswählen
