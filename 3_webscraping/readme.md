@@ -2,6 +2,9 @@
 # Webscraping
 Die Skripte enthalten Beispiele und Übungsaufgaben für klassisches Webscraping und für browserautomatisiertes Scraping mit Selenium. Die Auflösung der Übungen (nicht schummeln!) liegt im Unterordner `aufloesung`.
 
+
+Vorbereitende Übungen:
+
 *Aufgabe 1*
 
 Rufen Sie https://www.zeit.de/suche/index?q=kommunikationswissenschaft auf! Wie lautet der Parameter, mit dem auf ein Jahr eingegrenzt wird?
