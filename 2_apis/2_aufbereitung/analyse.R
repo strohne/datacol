@@ -21,7 +21,11 @@ export <- read_csv2("../1_erhebung/export.express.csv",na = "None")
 
 #
 # Daten aufbereiten ----
+# 
+# Ziel: Liste der Kommentare mit 
+# Informationen zu Posts
 #
+
 
 # Posts herausfiltern
 posts <- export %>%  
@@ -56,6 +60,8 @@ write_xlsx(comments, "express.comments.xlsx")
 
 #
 # Daten auswerten ----
+# Ziel: Posts mit den meisten Likes finden, 
+# Verteilung der Reaktionen visualisieren
 #
 
 # Post mit den meisten Likes
