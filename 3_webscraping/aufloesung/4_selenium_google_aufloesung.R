@@ -18,7 +18,7 @@ library(RSelenium)
 
 # startet einen Selenium-Server und einen verbundenen Browser
 # Beim ersten Aufruf werden alle benötigten Komponenten installiert (Geduld!)
-# Fall der Port belegt ist, einen anderen Port verwenden: 49152 bis 65535
+# Fall der Port belegt ist, einen anderen Port verwenden (hochzählen).
 # Der Port sollte am Ende mit server$stop() wieder freigegeben werden
 
 #selenium <- rsDriver(browser="firefox",port=4566L)
