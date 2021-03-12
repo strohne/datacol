@@ -80,7 +80,7 @@ data_hits <- html %>%
 #
 
 # Vektor mit URLs erstellen
-keywords <- c("kommunikationswissenschaft","medienwissenschaft","publizistik","politikwissenschaft","soziologie","data+science","germanistik")
+keywords <- c("kommunikationswissenschaft","politikwissenschaft","soziologie","data+science","germanistik")
 urls <- paste0("https://www.zeit.de/suche/index?q=",keywords,"&mode=1y&type=article")
 
 # Auf alle URLs die GET-Funktionen anwenden
