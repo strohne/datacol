@@ -1,12 +1,11 @@
 # Workshop Data Collection
 
-Dieses Repositorium enthält Übungsmaterialen zum Workshop. Zur Vorbereitung laden Sie sich bitte erstens das Repositorium herunter, indem Sie auf Code -> Download ZIP klicken.
-Installieren Sie bitte folgende Software:
+Dieses Repositorium enthält Übungsmaterialen zum Workshop. Zur Vorbereitung laden Sie sich bitte erstens das Repositorium herunter, indem Sie auf Code -> Download ZIP klicken. Und installieren Sie bitte folgende Software:
 
 *Grundlagen*
 - Die Browser Firefox und/oder Chrome
-- Einen Texteditor mit Syntaxhervorhebung, zum Beispiel Notepad++, Atom oder Textmate
 - Facepager: https://github.com/strohne/Facepager
+- Einen Texteditor mit Syntaxhervorhebung, zum Beispiel Notepad++, Atom oder Textmate
 
 *R und RSelenium*
 - R: https://cran.r-project.org/
