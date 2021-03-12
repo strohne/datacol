@@ -16,9 +16,9 @@ library(RSelenium)
 #
 
 
-# startet einen Selenium-Server und einen verbundenen Browser
+# Startet einen Selenium-Server und einen verbundenen Browser
 # Beim ersten Aufruf werden alle benötigten Komponenten installiert (Geduld!)
-# Fall der Port belegt ist, einen anderen Port verwenden: 49152 bis 65535
+# Fall der Port belegt ist, einen anderen Port verwenden (hochzählen)
 # Der Port sollte am Ende mit server$stop() wieder freigegeben werden
 
 #selenium <- rsDriver(browser="firefox",port=4567L)
@@ -55,7 +55,7 @@ suchschlitz$submitElement()
 # ÜBUNG:
 # Wie funktioniert der RSelenium-Befehl, um ein Element per CSS-Selektor auszuwählen?
 # (siehe die Hilfe von remoteDriver, Abschnitt Methods, Funktion findElement)
-# Ergänzen Sie den CSS-Selektor, mit dem die Anzahl der Suchergebnisse ausgelesen wird?
+# Ergänzen Sie den CSS-Selektor, mit dem die Anzahl der Suchergebnisse ausgelesen wird!
 
 ergebnisse <-  browser$findElement(using='WASMUSSHIERHIN','WASMUSSHIERHIN')
 ergebnisse <- ergebnisse$getElementText()
