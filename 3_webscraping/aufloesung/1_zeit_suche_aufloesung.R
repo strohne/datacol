@@ -32,9 +32,11 @@ text <- content(response,"text")
 # Inhalt für später in HTML-Datei abspeichern
 cat(text, file="html/zeit_suche.html")
 
+#
+# 2. HTML parsen ---
+#
 
 # Datei mit read_html-Funktion aus dem rvest package einlesen und parsen
-html <- content(response,"parsed")
 html <- read_html("html/zeit_suche.html")
 
 
@@ -60,8 +62,9 @@ data_hits <- as.numeric(data_hits)
 #
 
 # Vektor mit URLs erstellen
-keywords <- c("kommunikationswissenschaft","medienwissenschaft","publizistik","politikwissenschaft","soziologie","data+science","germanistik")
+keywords <- c("kommunikationswissenschaft","politikwissenschaft","soziologie","data+science","germanistik")
 urls <- paste0("https://www.zeit.de/suche/index?q=",keywords,"&mode=1y&type=article")
+
 
 # Auf alle URLs die GET-Funktionen anwenden
 responses <- map(urls,GET)
