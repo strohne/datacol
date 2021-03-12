@@ -1,3 +1,7 @@
+# Einführung in URLs, HTML und CSS-Selektoren
+URL 1: https://www.zeit.de/suche/index?q=kommunikationswissenschaft
+URL 2: https://www.zeit.de/zett/politik/2021-02/twitch-alexandra-orcasio-cortez-streaming-politiker-bundestagswahl
+
 
 # Webscraping
 Die Skripte enthalten Beispiele und Übungsaufgaben für klassisches Webscraping und für browserautomatisiertes Scraping mit Selenium. Die Auflösung der Übungen (nicht schummeln!) liegt im Unterordner `aufloesung`.
