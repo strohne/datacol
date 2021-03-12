@@ -16,7 +16,7 @@ alterdf <- tibble(
 
 
 # Ohne Pipe
-neuerdf <- filter (alterdf,likes > 100)
+neuerdf <- filter(alterdf,likes > 100)
 
 # Mit Pipe
 neuerdf <- alterdf %>%

@@ -41,8 +41,9 @@ html <- read_html("html/zeit_suche.html")
 
 
 #
-# 2. Anzahl der Suchergebnisse rausholen ----
+# 3. Anzahl der Suchergebnisse rausholen ----
 #
+
 
 # Mit CSS-Selektor das Element auswählen
 data_hits <- html_nodes(html, "h2.search-counter__hits") 
@@ -57,8 +58,15 @@ data_hits <- str_extract(data_hits,"[0-9]+")
 data_hits <- as.numeric(data_hits)
 
 
+# Oder...alles auf einmal
+data_hits <- html %>% 
+  html_nodes("h2.search-counter__hits") %>% 
+  html_text(trim=TRUE) %>% 
+  str_extract("[0-9]+") %>% 
+  as.numeric()
+
 #
-# 3. Mehrere Suchbegriffe ----
+# 4. Mehrere Suchbegriffe ----
 #
 
 # Vektor mit URLs erstellen
@@ -80,11 +88,12 @@ data_hits <- html %>%
   map(str_extract,"[0-9]+") %>% 
   map(as.numeric)
 
+
 data_hits
 
 
 #
-# 4. Grafik ----
+# 5. Grafik ----
 #
 
 # Ein Tibble (=Tabelle erstellen)

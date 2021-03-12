@@ -38,12 +38,16 @@ html <- content(response,"parsed")
 cat(text, file="html/zeit_suche.html")
 
 
+#
+# 2. HTML parsen ---
+#
+
 # Datei mit read_html-Funktion aus dem rvest package einlesen und parsen
 html <- read_html("html/zeit_suche.html")
 
 
 #
-# 2. Anzahl der Suchergebnisse rausholen ----
+# 3. Anzahl der Suchergebnisse rausholen ----
 #
 
 # ÜBUNG:
@@ -63,8 +67,16 @@ data_hits <- str_extract(data_hits,"[0-9]+")
 data_hits <- as.numeric(data_hits)
 
 
+
+# Oder...alles auf einmal
+data_hits <- html %>% 
+  html_nodes("WASKOMMTHIERHIN") %>% 
+  html_text(trim=TRUE) %>% 
+  str_extract("[0-9]+") %>% 
+  as.numeric()
+
 #
-# 3. Mehrere Suchbegriffe ----
+# 4. Mehrere Suchbegriffe ----
 #
 
 # Vektor mit URLs erstellen
@@ -89,7 +101,7 @@ data_hits
 
 
 #
-# 4. Grafik ----
+# 5. Grafik ----
 #
 
 # Ein Tibble (=Tabelle erstellen)
