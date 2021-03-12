@@ -20,8 +20,7 @@ library(writexl)
 
 
 # URL festlegen
-url <- "https://www.zeit.de/politik/deutschland/2020-03/krisenkommunikation-angela-merkel-emmanuel-macron-corona-krise"
-
+url <- "https://www.zeit.de/zett/politik/2021-02/twitch-alexandra-orcasio-cortez-streaming-politiker-bundestagswahl"
 
 # Webseite  mit GET-Funktion aus dem httr package herunterladen
 response <- GET(url)
