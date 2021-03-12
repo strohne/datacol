@@ -20,11 +20,13 @@ Installieren Sie bitte folgende Software:
   selenium <- rsDriver(browser="chrome",port=4566L)
   selenium$server$stop()
   ```
-
+Zum Nachvollziehen der Übungen benötigen Sie Accounts auf folgenden Plattformen:
+- Facebook
+- TikTok als App auf dem Smartphone (optional)
 
 ## Teil 1 - Grundlagen
 - Überblick über Verfahren automatisierter Datenerhebung
-- Überblick über die wichtigsten Datenformate
+- Grundlagen zu URLs
 
 ## Teil 2 - APIs
 - Einführung in Application Programming Interfaces (APIs) und JSON
@@ -32,6 +34,6 @@ Installieren Sie bitte folgende Software:
 - Exportieren der erhobenen Daten und Aufbereitung in R
 
 ## Teil 3 - Webscraping
-- Einführung in URLs, HTML und CSS
+- Einführung in HTML und CSS
 - Klassisches Webscraping
 - Browserautomatisierung mit Selenium
