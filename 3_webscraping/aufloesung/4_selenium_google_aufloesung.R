@@ -43,7 +43,7 @@ browser$navigate("http://www.google.com")
 
 # Suchbegriff eingeben
 suchschlitz <-  browser$findElement(using = 'name', 'q')
-suchschlitz$sendKeysToElement(list("Wie macht ein "))
+suchschlitz$sendKeysToElement(list("Wie viele Nutzer hat "))
 
 suchschlitz$sendKeysToElement(list(key='down_arrow'))
 
