@@ -21,7 +21,6 @@ library(writexl)
 
 # ÜBUNG: 
 # - Rufen Sie die  Zeit-Online-Suche auf und suchen Sie etwas!
-# - Wie lautet der Parameter in der URL, mit dem auf ein Jahr eingegrenzt wird?
 # - Ergänzen Sie unten die URL 
 
 # URL festlegen

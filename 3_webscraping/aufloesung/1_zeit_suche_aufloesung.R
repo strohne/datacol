@@ -27,7 +27,6 @@ url <- "https://www.zeit.de/suche/index?q=kommunikationswissenschaft&mode=1y&typ
 response <- GET(url)
 
 text <- content(response,"text")
-html <- content(response,"parsed")
 
 
 # Inhalt für später in HTML-Datei abspeichern
@@ -35,6 +34,7 @@ cat(text, file="html/zeit_suche.html")
 
 
 # Datei mit read_html-Funktion aus dem rvest package einlesen und parsen
+html <- content(response,"parsed")
 html <- read_html("html/zeit_suche.html")
 
 
