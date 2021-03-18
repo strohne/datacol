@@ -71,6 +71,19 @@ comments$stars <- html_articles %>%
   html_node("span.js-comment-recommendations") %>% 
   html_text(trim=TRUE)
 
+
+
+# Ansatz, um die Anzahl der Replies auszulesen
+# ...noch nicht funktionabel
+# html_more <- html %>% html_nodes("a[data-ct-label=weitere_antworten]")
+# 
+# 
+# morelinks <- tibble(no=1:length(html_more))
+# morelinks$url <- html_more %>% html_attr("data-url")
+# morelinks$count <- html_more %>%html_node("span.comment-overlay__count")  %>%  html_text()
+
+
+
 #
 # 3. Aufbereiten ----
 #
