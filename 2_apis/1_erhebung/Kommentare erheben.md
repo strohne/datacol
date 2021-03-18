@@ -2,7 +2,6 @@
 
 Aufgabe: Kommentare selber erheben (wie mit Posts gemeinsam) 
 
-Dabei Einstellungen vornehmen: Kommentare sortieren, sodass diese nicht chronologisch sind sondern nach "Relevanz" sortiert (wie bei Facebook angezeigt)(Tipp: Ein Parameter muss abgeändert werden) 
 
 Drei Hinweise:
 
