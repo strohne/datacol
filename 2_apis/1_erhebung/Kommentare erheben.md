@@ -3,7 +3,7 @@
 Aufgabe: Kommentare selber erheben
 
 
-Drei Hinweise:
+Hinweise:
 
 1. Es gibt ein Preset, um Kommentare zu erheben.
  
