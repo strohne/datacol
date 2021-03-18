@@ -1,6 +1,6 @@
 # Kommentare erheben
 
-Aufgabe: Kommentare selber erheben (wie mit Posts gemeinsam) 
+Aufgabe: Kommentare selber erheben
 
 
 Drei Hinweise:
