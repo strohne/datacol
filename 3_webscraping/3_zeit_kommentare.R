@@ -27,7 +27,7 @@ response <- GET(url)
 html <- content(response,"parsed")
 
 # Bei Bedarf für später abspeichern
-# cat(content(response,"text"),file="html/comments.html")
+cat(content(response,"text"),file="html/comments.html")
 
 #
 # 2. Liste der Kommentare rausholen ----
