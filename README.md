@@ -17,7 +17,7 @@ Dieses Repositorium enthält Übungsmaterialen zum Workshop. Zur Vorbereitung la
 - Installieren Sie in R / RStudio das Package RSelenium
 - Richten Sie mit folgenden R-Befehlen RSelenium ein: 
   ```
-  library(Rselenium)
+  library(RSelenium)
   selenium <- rsDriver(browser="chrome",port=4566L)
   selenium$server$stop()
   ```
