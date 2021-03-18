@@ -10,6 +10,7 @@
 !*.Rproj
 !*.md
 !*.ipynb
+!*.pdf
 
 # ...even if they are in subdirectories
 !*/
